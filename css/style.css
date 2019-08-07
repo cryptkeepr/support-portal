@@ -4,13 +4,34 @@ body {
 }
 
 .page-container {
-  padding: 20px 60px 35px;
+  padding: 15px 60px 35px;
+}
+
+.page-container h1,
+.page-container h2,
+.page-container h3,
+.page-container h4,
+.page-container h5,
+.page-container h6 {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .page-container h1 {
+  font-size: 2em;;
+}
+
+.page-container h3 {
+  font-size: 1.5em;
+}
+
+.page-container h5 {
+  font-size: 1.25em;
+}
+
+.page-container p {
   color: rgba(255, 255, 255, 0.7);
   font-family: 'Open Sans', sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
